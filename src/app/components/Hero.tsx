@@ -21,7 +21,7 @@ const Hero = () => {
             Hello!
           </p>
           <h1 className="mb-4 text-6xl font-light tracking-tight text-white md:text-9xl">
-            I'm Gustavs
+            I&#39m Gustavs
           </h1>
           <p className="max-w-lg text-lg text-foreground/70 md:text-xl">
             I am a 3D artist with more than 7 years of experience creating
