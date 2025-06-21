@@ -27,7 +27,7 @@ const PortfolioGallery = () => {
   return (
     <section id="portfolio" className="container mx-auto px-4 py-16">
         <div className="container mx-auto px-4 text-center mb-16">
-        <h2 className="text-8xl font-light mb-4">My Portfolio</h2>
+        <h2 className="text-7xl font-light mb-4">My Portfolio</h2>
         <p className="text-lg max-w-3xl mx-auto text-foreground/80 pt-8">
           Here is a curated selection of my professional and personal work. Each
           project represents a unique challenge and a story of creative

@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     // The main container is still relative and has the background image
     <section className="relative flex w-screen min-h-[1000px] items-center
-    bg-hero-bg bg-cover bg-center overflow-y-auto">
+    bg-hero-bg bg-cover bg-center ">
         <div
-        className="absolute inset-0  left-0 h-full w-[50vh] bg-gradient-to-r from-background to-transparent"
+        className="absolute  left-0 h-full w-[50%] bg-gradient-to-r from-background to-transparent"
       />
       
       {/* 
