@@ -10,7 +10,7 @@ export async function POST(request: Request) {
   try {
     const { name, email, message } = await request.json();
 
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>", // This 'from' address is a requirement from Resend
       to: ["gveitners@gmail.com"], // !! REPLACE with your actual email address
       subject: `New Message from ${name} via Portfolio`,
@@ -29,6 +29,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ message: "Email sent successfully!" }, { status: 200 });
 
   } catch (error) {
+    console.error("Contact API Error:", error);
     return NextResponse.json({ error: "An unexpected error occurred." }, { status: 500 });
   }
 }

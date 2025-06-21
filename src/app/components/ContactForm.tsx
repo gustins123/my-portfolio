@@ -30,7 +30,8 @@ const ContactForm = () => {
         setStatus("error");
       }
     } catch (error) {
-      setStatus("error");
+        console.error("Form submission error:", error);
+        setStatus("error");
     }
   };
 
