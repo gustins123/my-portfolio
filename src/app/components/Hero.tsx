@@ -24,8 +24,7 @@ const Hero = () => {
             I&#39;m Gustavs
           </h1>
           <p className="max-w-lg text-lg text-foreground/70 md:text-xl">
-            I am a 3D artist with more than 7 years of experience creating
-            beautiful and engaging visual experiences.
+            I am a 3D artist with over 7 years of experience creating high-quality visuals for various projects. I am passionate about bringing ideas to life - whether through 3D renders, interactive apps, or anything in between.
           </p>
         </div>
       </div>
