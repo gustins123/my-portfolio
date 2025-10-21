@@ -10,6 +10,18 @@ export interface PortfolioImage {
 
 export const images: PortfolioImage[] = [
   {
+    "src": "/images/portfolio/candle.png",
+    "width": 2048,
+    "height": 2048,
+    "title": "Candle"
+  },
+  {
+    "src": "/images/portfolio/charcuterie_board.png",
+    "width": 2048,
+    "height": 2048,
+    "title": "Charcuterie Board"
+  },
+  {
     "src": "/images/portfolio/image10.jpg",
     "width": 3000,
     "height": 3000,
@@ -64,12 +76,6 @@ export const images: PortfolioImage[] = [
     "title": "Image18"
   },
   {
-    "src": "/images/portfolio/image19.png",
-    "width": 2048,
-    "height": 2048,
-    "title": "Image19"
-  },
-  {
     "src": "/images/portfolio/image20.jpg",
     "width": 2048,
     "height": 2048,
@@ -88,12 +94,6 @@ export const images: PortfolioImage[] = [
     "title": "Image22"
   },
   {
-    "src": "/images/portfolio/image23.jpg",
-    "width": 1200,
-    "height": 1200,
-    "title": "Image23"
-  },
-  {
     "src": "/images/portfolio/image24.jpg",
     "width": 2000,
     "height": 2000,
@@ -104,12 +104,6 @@ export const images: PortfolioImage[] = [
     "width": 1200,
     "height": 1200,
     "title": "Image25"
-  },
-  {
-    "src": "/images/portfolio/image26.png",
-    "width": 1463,
-    "height": 2048,
-    "title": "Image26"
   },
   {
     "src": "/images/portfolio/image27.jpg",
@@ -124,39 +118,21 @@ export const images: PortfolioImage[] = [
     "title": "Image28"
   },
   {
-    "src": "/images/portfolio/image29.jpg",
-    "width": 2048,
-    "height": 2048,
-    "title": "Image29"
-  },
-  {
     "src": "/images/portfolio/image30.jpg",
     "width": 1200,
     "height": 1200,
     "title": "Image30"
   },
   {
-    "src": "/images/portfolio/image31.png",
-    "width": 2000,
-    "height": 2000,
-    "title": "Image31"
+    "src": "/images/portfolio/wine.png",
+    "width": 2048,
+    "height": 2048,
+    "title": "Wine"
   },
   {
-    "src": "/images/portfolio/image32.jpg",
-    "width": 1024,
-    "height": 1024,
-    "title": "Image32"
-  },
-  {
-    "src": "/images/portfolio/image33.jpg",
-    "width": 1200,
-    "height": 1200,
-    "title": "Image33"
-  },
-  {
-    "src": "/images/portfolio/image34.jpg",
-    "width": 1200,
-    "height": 1200,
-    "title": "Image34"
+    "src": "/images/portfolio/woven_blanket_1.jpg",
+    "width": 2048,
+    "height": 2048,
+    "title": "Woven Blanket 1"
   }
 ];
